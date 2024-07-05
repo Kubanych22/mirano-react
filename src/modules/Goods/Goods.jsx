@@ -1,7 +1,7 @@
 import {Cart} from '../Cart/Cart';
 import {goodsArray} from '../../goodsArray';
 import {Card} from '../Card/Card';
-import './goods.scss'
+import './goods.scss';
 
 export const Goods = () => (
   <section className="goods">

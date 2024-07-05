@@ -23,7 +23,7 @@ export const Cart = () => (
       
       <ul className="cart__list">
         {goodsArray.map((item) => (
-          <CartItem className="cart__item" {...item} />
+          <CartItem key={item.id} {...item} />
         ))}
       
       </ul>
